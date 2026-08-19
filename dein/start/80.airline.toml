@@ -1,0 +1,13 @@
+# File: dein/start/80.airline.toml
+# Description: Airline statusline plugin suite
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+    let g:airline_powerline_fonts = 1
+    let g:airline#extensions#tabline#enabled = 1
+    let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+'''
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'

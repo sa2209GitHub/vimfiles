@@ -1,0 +1,55 @@
+{
+  "suggest.completionItemKindLabels": {
+    "keyword": "󰌋",
+    "variable": "󰆧",
+    "value": "󰎠",
+    "operator": "󰆕",
+    "constructor": "",
+    "function": "󰊕",
+    "reference": "󰈇",
+    "constant": "󰏿",
+    "method": "󰆧",
+    "struct": "󰙅",
+    "class": "𝓒",
+    "interface": "",
+    "field": "󰜢",
+    "property": "󰜢",
+    "event": "",
+    "unit": "󰑭",
+    "file": "󰈙",
+    "folder": "󰉋",
+    "snippet": "",
+    "typeParameter": "󰅲"
+  },
+  "powershell.integratedConsole.showOnStartup": false,
+
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "ruff",
+
+  "inlayHint.enable": false,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.functionReturnTypes": false,
+
+  "coc.preferences.formatOnSave": true,
+  "ruff.organizeImports": true,
+  "ruff.autoFixOnSave": true,
+
+  "[python]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "[json]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "[typescript]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "[javascript]": {
+    "coc.preferences.formatOnSave": true
+  },
+
+  "diagnostic.errorSign": "❌",
+  "diagnostic.warningSign": "⚠️",
+  "diagnostic.infoSign": "ℹ️",
+  "diagnostic.hintSign": "💡"
+}

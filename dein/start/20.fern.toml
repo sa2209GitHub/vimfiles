@@ -1,0 +1,23 @@
+# Description: Fern file manager and preview integration plugin specs
+# File: dein/start/20.fern.toml
+
+[[plugins]]
+repo = "lambdalisue/fern.vim"
+hook_add = '''
+    let g:fern#renderer = 'nerdfont'
+    let g:fern#drawer_width = 40
+
+    nnoremap <C-n> :Fern . -drawer -toggle -reveal=%<CR>
+'''
+
+[[plugins]]
+repo = "lambdalisue/nerdfont.vim"
+
+[[plugins]]
+repo = "lambdalisue/fern-renderer-nerdfont.vim"
+
+[[plugins]]
+repo = "lambdalisue/fern-git-status.vim"
+
+[[plugins]]
+repo = "yuki-yano/fern-preview.vim"

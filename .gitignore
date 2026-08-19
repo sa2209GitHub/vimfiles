@@ -1,0 +1,11 @@
+.cache/
+plugins/cache/
+coc/
+coc-settings.json.bak
+*.swp
+*.swo
+*.tmp
+*~
+[._]*.un~
+printvimconfig.ps1
+.netrwhist

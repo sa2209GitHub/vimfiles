@@ -1,0 +1,14 @@
+# File: dein/start/70.colorschemes.toml
+# Description: List of custom color schemes
+
+[[plugins]]
+repo = "morhetz/gruvbox"
+
+[[plugins]]
+repo = "pineapplegiant/spaceduck"
+
+[[plugins]]
+repo = "ayu-theme/ayu-vim"
+
+[[plugins]]
+repo = "kooparse/vim-color-desert-night"
